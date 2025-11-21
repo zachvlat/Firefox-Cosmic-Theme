@@ -12,7 +12,7 @@
     --cosmic-radius: 22px;        /* Global UI roundness */
     --cosmic-accent: AccentColor;     /* Accent color */
 
-    --cosmic-bg: color-mix(in srgb, AccentColor 30%, black);         /* Main background  */
+    --cosmic-bg: color-mix(in srgb, AccentColorText 40%, black);         /* Main background  */
     --cosmic-bg-dark: CanvasText;
     --cosmic-bg-light: Canvas;
     --cosmic-border: AccentColor;
@@ -203,4 +203,3 @@ menupopup {
 #bookmarksPanel {
     border-radius: var(--cosmic-radius) !important;
 }
-
