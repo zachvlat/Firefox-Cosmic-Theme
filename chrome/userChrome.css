@@ -10,15 +10,15 @@
 
 :root {
     --cosmic-radius: 22px;        /* Global UI roundness */
-    --cosmic-accent: #4a86cf;     /* Accent color */
+    --cosmic-accent: AccentColor;     /* Accent color */
 
-    --cosmic-bg: #2b2b2b;         /* Main background */
-    --cosmic-bg-dark: #1f1f1f;
-    --cosmic-bg-light: #3a3a3a;
-    --cosmic-border: #3d3d3d;
+    --cosmic-bg: color-mix(in srgb, AccentColor 40%, black);         /* Main background  */
+    --cosmic-bg-dark: CanvasText;
+    --cosmic-bg-light: Canvas;
+    --cosmic-border: AccentColor;
 
-    --cosmic-text: #ffffff;
-    --cosmic-text-dim: #c4c4c4;
+    --cosmic-text: CanvasText;
+    --cosmic-text-dim: AccentColor;
 }
 
 /* ===========================================
@@ -203,4 +203,3 @@ menupopup {
 #bookmarksPanel {
     border-radius: var(--cosmic-radius) !important;
 }
-
